@@ -1,0 +1,89 @@
+*{
+	
+}
+
+#head2{
+	text-decoration: line-through;
+}
+
+#head3{
+	text-decoration: underline;
+}
+
+#p1{
+	font-family:Candara;
+}
+
+.p2{
+	margin-top:5px;
+	margin-bottom:5px;
+	font-family:Candara;
+	font-size:10;
+}
+
+#link1{
+	color:red;
+	font-weight: bold;
+}
+
+#table1, th, td {
+	text-align:left;
+	 border: 1px solid black;
+}
+
+th, td {
+	 border: 1px solid black;
+}
+
+#table2, th, td {
+	text-align:left;
+	 border: 1px solid black;
+	 border-color:green;
+}
+
+#table2_row {
+	background-color:green;
+}
+
+#custom_outline{
+	border: 1px solid red;
+}
+
+#outer_div{
+	border: 2px dotted green;
+}
+
+#t1{
+	border: 6px solid;
+	background-color:lightblue;
+}
+
+#t2{
+	border: 4px solid;
+	background-color:lightblue;
+
+}
+
+#t3{
+	border: 2px solid;
+	background-color:lightblue;
+
+}
+
+#t4{
+	height:20px;
+	background-color:lightblue;
+}
+#text_animation{
+
+    background-color: red;
+    animation-name: example;
+    animation-duration: 1s;
+	animation-iteration-count: infinite;
+} 
+
+@keyframes example {
+
+    50%  {background-color: red;}
+    100% {background-color: green;}
+}
